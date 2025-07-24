@@ -1,0 +1,62 @@
+
+.noto-serif-style{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:700px;
+  font-size: 65px;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+
+
+
+
+.display-flex{
+    display: flex;
+}
+/* color dark */
+.black{
+    color: #252432;
+    font-weight: bold;
+}
+.low-black{
+    color: #8987A1;
+}
+.black1{
+    color: #000000;
+}
+.font-color{
+    color: #E95A08;
+}
+.color{
+    color: rgba(0, 0, 0, 0.5);
+     font-size:22px
+
+}
+/* nav styles */
+.Navbar{
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto; 
+}
+.nav-item{
+    list-style: none;
+    margin-right: 48px;
+}
+.nav-link{
+    text-decoration: none;
+}
+/* banner */
+.banner{
+    justify-content: center;
+max-width: 1400px;
+height: 460px;
+margin-top: 220px;
+margin-left: 220px;
+margin-bottom:120px;
+
+
+}
