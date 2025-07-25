@@ -13,6 +13,7 @@
   font-size: 50px;
   font-variation-settings:
     "wdth" 100;
+       color: #000000;
 }
 
 
@@ -70,7 +71,7 @@ margin-bottom:120px;
 .text-center{
     text-align: center;
 }
-.Plant{
+.Plants{
     max-width: 1440px;
     margin: auto;
     gap: 10px;
@@ -90,9 +91,6 @@ margin-bottom:120px;
     background-color:#E95A08 ;
     padding: 10px 20px;
 
-    
-
-  
 }
 
 
@@ -109,6 +107,36 @@ margin-bottom:120px;
 
 .hide{
     display: none;
+}
+/* flower banner */
+.flowers-banner{
+    text-align: center;
+}
+.content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 214px;
+
+}
+
+
+.flowers-image{
+    position: relative;
+    width: 540px;
+}
+.main-image{
+    width:100%;
+    display: block;
+}
+.badge{
+    position: absolute;
+    top: -140px;
+    right: -80px;
+    width: 286px;     
 }
 /* responsive */
 @media screen and (max-width:576px) {
