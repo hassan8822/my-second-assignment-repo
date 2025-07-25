@@ -41,6 +41,7 @@
 }
 .color{
     color: rgba(0, 0, 0, 0.5);
+    font-family: "Noto Serif", serif;
      font-size:22px
 
 }
@@ -108,6 +109,15 @@ margin-bottom:120px;
 .hide{
     display: none;
 }
+
+
+
+
+
+
+
+    
+
 /* flower banner */
 .flowers-banner{
     text-align: center;
@@ -138,6 +148,40 @@ margin-bottom:120px;
     right: -80px;
     width: 286px;     
 }
+
+/* disconts  */
+.image-row{
+display: flex;
+justify-content: center;
+width: 1440px;
+margin: 0 auto;
+gap: 28px;
+border-radius: 22px;
+
+}
+.image-container{
+    position: relative;
+    gap: 28px;
+    border-radius: 28px;
+    
+}
+.image-text{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    color:#FFFFFF;
+    padding: 6px 12px;
+    border-radius: 14px;
+    font-weight: bold;
+
+    
+}
+.flowers-field{
+    width: 753px;
+  
+}
+
 /* responsive */
 @media screen and (max-width:576px) {
    .banner{
