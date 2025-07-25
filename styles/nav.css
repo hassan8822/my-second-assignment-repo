@@ -15,6 +15,14 @@
     "wdth" 100;
        color: #000000;
 }
+.noto-serif-styles{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:700px;
+  font-size: 50px;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 
 
@@ -181,6 +189,32 @@ border-radius: 22px;
     width: 753px;
   
 }
+/* information */
+.information{
+    margin-top: 119px;
+}
+
+.join{
+    position: relative;
+    width: 100%;
+    height: auto;
+
+}
+
+.join-text{
+     position: absolute;
+    top: 20px;
+    left: 60%;
+    transform: translate(-50%);
+    color:#FFFFFF;
+    text-align: center;
+    border-radius: 14px;
+    font-weight: bold;
+    
+}
+
+
+
 
 /* responsive */
 @media screen and (max-width:576px) {
@@ -192,6 +226,10 @@ border-radius: 22px;
    .banner-picture{
    width: auto;
   
+   }
+   .plant-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
    }
    
  
